@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: grey;
+}
+
+.container {
+    width: 40%;
+    height: 100vh;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+
+}
+
+.container .numberInput {
+    width: 100%;
+    padding: 20px;
+    font-size: 20px;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.button {
+    font-size: 20px;
+    margin: 20px;
+    padding: 40px;
+    width: 18%;
+    border-radius: 50%;
+    border: none;
+}
+
+.button.symbols {
+    background-color: #f0a53b;
+    color: white;
+}
+
+.button.topsymbols {
+    background-color: #a6a4a7;
+    color: white;
+}
+
+.button.numbers {
+    background-color: #323333;
+    color: white;
+}
+
+@media (max-width: 1540px) {
+    .container {
+        width: 40%;
+    }
+
+    .button {
+        margin: 20px;
+        padding: 20px;
+        width: 15%;
+    }
+}
+
+@media (max-width: 1100px) {
+    .container {
+        width: 50%;
+    }
+}
+
+@media (max-width: 860px) {
+    .container {
+        width: 60%;
+    }
+}
+
+@media (max-width: 750px) {
+    .container {
+        width: 70%;
+    }
+}
+
+@media (max-width: 650px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media (max-width: 450px) {
+    .container {
+        width: 100%;
+    }
+
+    .button {
+        margin: 20px;
+        padding: 10px;
+        width: 10%;
+        font-size: auto;
+    }
+}
